@@ -5,7 +5,7 @@
     <RootNamespace>OpenFaaS</RootNamespace>
     <AssemblyName>OpenFaaS.Functions.Newtonsoft</AssemblyName>
     <PackageId>OpenFaaS.Functions.Newtonsoft</PackageId>
-    <Version>1.0-preview-1</Version>
+    <Version>1.5</Version>
     <Authors>Goncalo Oliveira</Authors>
     <Description>Newtonsoft Json formatters for OpenFaaS ASPNET Functions</Description>
     <RepositoryUrl>https://github.com/goncalo-oliveira/faas-aspnet-newtonsoft</RepositoryUrl>
@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.8" />
-    <PackageReference Include="OpenFaaS.Functions" Version="1.5.0-preview-1" />
+    <PackageReference Include="OpenFaaS.Functions" Version="1.5.0" />
   </ItemGroup>
 
   <ItemGroup>
