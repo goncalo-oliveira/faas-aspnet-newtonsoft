@@ -39,3 +39,18 @@ public void ConfigureServices( IServiceCollection services )
     // add your services here.
 }
 ```
+
+And naturally, you can customize the serialization settings
+
+```csharp
+public void ConfigureServices( IServiceCollection services )
+{
+    services.ConfigureHttpFunction()
+        .AddNewtonsoftJson( options =>
+        {
+            options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+        } );
+
+    // add your services here.
+}
+```
